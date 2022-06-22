@@ -10,7 +10,6 @@
 - Language
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/JSP-007396?style=flat-square&logo=JSP&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a>
 - Database
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a><br/>
 - Tool
@@ -20,17 +19,14 @@
 - 2명
 
 ### Part
-- **MVC 패턴** 적용
-- Mysql에 회원 및 노래 **데이터 저장**
-- **쿠키**를 이용한 **로그인** 및 **로그아웃** 기능
-- **코인 충전** 및 **사용**
-- 좋아하는 노래 **장바구니** 기능
-- 각 페이지를 연결하는 **서블릿** 기능 사용
+- 1일간 로그인 상태를 유지하기 위해 **쿠키**를 사용하여 회원 관리
+- 비즈니스 로직과 UI로직을 분리하는 **MVC 패턴**을 사용하여 맡은 역할을 독립적으로 수행
+    - Model, Controller 부분 담당
+- 코인 충전/차감, 원하는 노래 찜하는 기능
 
-### Realization
-- **MVC 패턴의 구성 및 흐름**에 대해 이해하고 사용할 수 있음
-- 필요한 **설정정보**를 **web.xml**에 적용할 수 있음
-- 필요한 **library 파일**들을 적절한 위치에 저장하고 사용할 수 있음
+### Architecture
+![image](https://user-images.githubusercontent.com/86348868/174975431-8ceec3cb-f372-4626-802b-2410d2c9f6e6.png)
+
 
 ### Screenshot
 ![image](https://user-images.githubusercontent.com/86348868/148524935-356a3201-3226-47b0-922f-576522006a08.png)
